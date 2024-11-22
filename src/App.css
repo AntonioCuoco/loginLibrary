@@ -1,0 +1,34 @@
+#root {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: #212529;
+}
+
+html {
+  background-color: #212529;
+}
+
+.ant-form-item-required::after {
+  color: #DEE2E6;
+}
+
+.ant-modal-content .ant-modal-header {
+  background-color: #495057;
+}
+
+.ant-modal-content .ant-modal-title {
+  color: #DEE2E6;
+}
+
+.ant-modal-content .ant-modal-close {
+  color: #DEE2E6;
+}
+
+.ant-form-item {
+  margin-bottom: 0px;
+}
+
+.ant-modal-wrap .ant-modal:where(.ant-modal-centered) .ant-modal-content {
+  margin: 0px;
+}
+
